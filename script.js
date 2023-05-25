@@ -36,10 +36,6 @@ function calculateAge() {
    var ageMonths = currentMonth - inputMonth;
    var ageDays = currentDay - inputDay;
 
-   // if (ageMonths < 0 || (ageMonths === 0 && ageDays < 0)) {
-   //    ageYears--;
-   //    ageMonths = 12 + ageMonths;
-   // }
 
    if (ageDays < 0) {
       ageMonths--;
